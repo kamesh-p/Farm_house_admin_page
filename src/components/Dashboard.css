@@ -1,0 +1,98 @@
+/* @import "~react-chartjs-2/dist/react-chartjs-2.css"; */
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.orders-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  width: 200px;
+}
+
+.order-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.order-card p {
+  margin-bottom: 5px;
+}
+
+.order-card div {
+  margin-top: 10px;
+}
+
+.order-card h4 {
+  margin-bottom: 5px;
+}
+
+.order-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.order-card li {
+  margin-bottom: 5px;
+}
+.pie-chart-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pie-chart-container h2 {
+  margin-bottom: 20px;
+}
+/* Styles for the chart container */
+.pie-chart-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: fixed;
+  /* left: 780px; */
+  right: 40px;
+}
+
+/* Styles for the chart legend */
+.pie-chart-container .chart-legend {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.pie-chart-container .chart-legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.pie-chart-container .chart-legend li span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.dashboard-container {
+  display: flex;
+  margin-left: 50px;
+}
+.canvas-pie-chart {
+  width: 400px !important;
+  height: 400px !important;
+}

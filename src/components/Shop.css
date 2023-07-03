@@ -1,0 +1,47 @@
+.category-section {
+  margin-top: 20px;
+}
+
+.category {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 600px;
+}
+
+.product-info {
+  text-align: center;
+}
+
+.product-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-info p {
+  margin-bottom: 5px;
+}
+
+.product-info p:last-child {
+  font-weight: bold;
+}
+.shop-img {
+  width: 150px !important;
+  height: 100px !important;
+}
+/* Add styling for buttons if needed */
