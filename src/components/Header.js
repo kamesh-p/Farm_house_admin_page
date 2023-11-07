@@ -21,13 +21,15 @@ const Header = ({ handleRouteChange }) => {
       <nav>
         <div className="header-display-container">
           <div className="header-left">
-            <img src={logo} alt="Logo" className="logo" />
+            <Link to="/">
+              <img src={logo} alt="Logo" className="logo" />
+            </Link>
             <h1 className="company-name">FarmHouse</h1>
           </div>
           <div className="header-right">
             <ul>
               <li>
-                <Link to="/admin/dashboard">Dashboard</Link>
+                <Link to="/">Dashboard</Link>
               </li>
               <li>
                 <Link

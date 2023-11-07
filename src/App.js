@@ -24,7 +24,7 @@ const App = () => {
           <>
             <Header handleRouteChange={handleRouteChange} />
             <Routes>
-              <Route path="/admin/dashboard" element={<DashBoard />} />
+              <Route path="/" element={<DashBoard />} />
               <Route path="/admin/shop" element={<Shop />} />
               <Route
                 path="/admin/user-management"
